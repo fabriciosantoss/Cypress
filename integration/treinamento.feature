@@ -5,4 +5,6 @@ Feature: Preenchimento dos campos do desafio
         
 		Scenario: Preenchimento dos dados pessoais
 		When eu preencher os campos
-        Then os campos devem ser preenchidos com as informacoes
+        And meu nome for preenchido
+		And a tabela estiver preenchida com o cadastro completo
+		Then deve ser exibido a mensagem de cadastro

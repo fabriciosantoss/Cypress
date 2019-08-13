@@ -1,26 +1,22 @@
 {
-  
-    "name": "treinamento",
-    "version": "1.0.0",
-    "description": "desafio tecnico da cubos",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "Esukanoiru",
-    "license": "ISC",
-    "devDependencies": {
-      "cypress": "^3.4.1",
-      "cypress-cucumber-preprocessor": "^1.13.0",
-      "cypress-xpath": "^1.4.0"
-    },
-    "dependencies": {
-      "cosmiconfig": "^5.2.1"
-    },
-
-    "cypress-cucumber-preprocessor": {
-      "nonGlobalStepDefinitions": true
-    }
-
-  
+  "name": "cypresscubos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.4.1",
+    "cypress-cucumber-preprocessor": "^1.13.1",
+    "cypress-xpath": "^1.4.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "cosmiconfig": "^5.2.1"
+  }
 }

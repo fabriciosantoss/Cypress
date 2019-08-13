@@ -1,12 +1,6 @@
 import {Given, When, Then,} from 'cypress-cucumber-preprocessor/steps';
 
 
-Given('que eu esteja no campo de treinamento', () => {
-
-    const url = './campoTreinamento.html'
-    cy.visit('./campoTreinamento.html')
-
-})
 
 When('eu preencher os campos', () => {   
     cy.get('input[id="elementosForm:nome"]')

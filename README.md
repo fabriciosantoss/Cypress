@@ -1,4 +1,4 @@
-# Desafio Cubos
+# Aprendendo Cypress
 
 Olá Galera, espero que gostem do meu código, vou passar um rápido tutorial para que vocês possam executar os testes.
 

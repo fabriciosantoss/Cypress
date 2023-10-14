@@ -1,0 +1,27 @@
+image: cypress/browsers:latest
+
+CYPRESS_BASE_URL: ./campoTreinamento.html
+
+
+stages:
+  - build
+  - test
+
+jobs:
+  build:
+    stage: build
+    script:
+      - echo "Building project"
+
+  test:
+    stage: test
+    depends_on: build
+    script:
+      - echo "Running Cypress tests"
+      - npm run cypress:run
+report:
+    stage: report
+    depends_on: test
+    script:
+      - echo "Generating test report"
+      - cypress report
